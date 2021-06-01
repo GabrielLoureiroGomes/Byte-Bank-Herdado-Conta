@@ -1,3 +1,5 @@
+package classes;
+
 public class TestaContas {
 
     public static void main(String[] args) {
@@ -8,8 +10,8 @@ public class TestaContas {
         cp.deposita(200);
 
         cc.transfere(10, cp);
-        System.out.println("Conta Corrente: " + cc.getSaldo());
-        System.out.println("Conta Poupança: " + cp.getSaldo());
+        System.out.println("classes.Conta Corrente: " + cc.getSaldo());
+        System.out.println("classes.Conta Poupança: " + cp.getSaldo());
     }
 
 }
