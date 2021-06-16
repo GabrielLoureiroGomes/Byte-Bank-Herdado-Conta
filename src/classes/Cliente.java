@@ -1,6 +1,7 @@
 package classes;
 
 public class Cliente {
+
     private String nome;
     private String cpf;
     private String profissao;
@@ -28,4 +29,5 @@ public class Cliente {
     public void setProfissao(String profissao) {
         this.profissao = profissao;
     }
+
 }
